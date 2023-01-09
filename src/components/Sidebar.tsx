@@ -7,7 +7,7 @@ import setting from '../assets/setting.png'
 
 const Sidebar = () => {
     return (
-        <div className='w-[83px] bg-white h-screen fixed top-[63px] left-0 px-4 shadow-sm'>
+        <div className='w-[83px] bg-white h-screen fixed top-[63px] px-4 shadow-sm'>
             <ul className=''>
                 <li className='flex items-center flex-col text-xs font-semibold mt-6'>
                     <img src={overview} alt="overview icon" />

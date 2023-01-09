@@ -19,7 +19,7 @@ const Navbar = () => {
         }
     ]
     return (
-        <nav className='bg-white h-[63px] px-4 shadow-sm fixed z-20 top-0 left-0 w-screen'>
+        <nav className='bg-white h-[63px] px-4 shadow-sm fixed z-20 top-0 w-screen' style={{ maxWidth: '1400px', margin: '0 auto' }}>
             <div className='flex'>
                 <div className='w-7/12 flex justify-between items-center'>
                     <img src={logo} alt="logo" />

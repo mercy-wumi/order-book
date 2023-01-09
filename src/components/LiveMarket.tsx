@@ -73,7 +73,7 @@ const LiveMarket = () => {
         ]
     }
     return (
-        <div className='fixed bottom-0 bg-white font-semibold w-screen h-[51px]'>
+        <div className='fixed bottom-0 bg-white font-semibold w-screen h-[51px]' style={{ maxWidth: '1400px', margin: '0 auto' }}>
             <span className='bg-black text-white px-6 py-3 fixed bottom-0 z-30 h-[51px]'>Live Market</span>
             <div className='bg-inherit'>
                 <Slider {...setting} className='overflow-hidden flex-1 flex items-center'>

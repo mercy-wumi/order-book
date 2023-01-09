@@ -54,7 +54,7 @@ const ProductTables = () => {
     }
 
     return (
-        <div className='grid grid-cols-2 gap-2 mt-3 w-full text-sm'>
+        <div className='grid grid-cols-1 xl:grid-cols-2 gap-2 mt-3 w-full text-sm'>
             <div className='bg-white px-1 max-h-[391px] overflow-auto' id="bookTables">
                 <table className='w-full text-left'>
                     <thead className='text-grayText font-500 text-xs border-b-[1px] border-lightGray'>

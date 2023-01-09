@@ -90,10 +90,10 @@ const TradeLog = () => {
     }
 
     return (
-        <div className='mt-3 w-full text-sm bg-white'>
+        <div className='mt-3 w-full text-sm bg-white overflow-auto'>
             <span className="block uppercase text-grayText font-semibold p-4 border-b-2 border-lightGray">Trade Log</span>
             <div className='px-1 max-h-[391px] overflow-auto' id="bookTables">
-                <table className='w-full max-h-[391px] text-left '>
+                <table className='w-full max-h-[391px] text-left'>
                     <thead className='text-grayText font-500 text-xs border-b-[1px] border-lightGray'>
                         <tr className={style.row}>
                             <th className={style.td}>Security</th>

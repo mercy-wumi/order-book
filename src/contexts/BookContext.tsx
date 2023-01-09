@@ -17,7 +17,7 @@ const BookContextProvider: React.FC<Props> = ({ children }) => {
             const json = JSON.parse(event.data)
             try {
                 if (json) {
-                    manager.decrypt(json)
+                    console.log(manager.decrypt(json))
                     setOrderBook(json)
                     console.log(orderBook)
                 }

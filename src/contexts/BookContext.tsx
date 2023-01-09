@@ -11,6 +11,7 @@ const BookContextProvider: React.FC<Props> = ({ children }) => {
         vector: import.meta.env.VITE_VECTOR
     })
     console.log(manager)
+    console.log(import.meta.env.VITE_VECTOR)
     useEffect(() => {
         const ws = new WebSocket('wss://comx-sand-api.afexnigeria.com/stream/trades?authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjAsInVzZXJuYW1lIjoic2EuYWJkdWxnYWZhckBnbWFpbC5jb20iLCJleHAiOjE2NDAwODUxODIsImVtYWlsIjoic2EuYWJkdWxnYWZhckBnbWFpbC5jb20iLCJvcmlnX2lhdCI6MTYzOTk5ODc4Mn0.1gAY5vceMv12RfwqlaL_Msyk7wJH0U4BtTGsKh2IfCQ')
         ws.onmessage = (event) => {

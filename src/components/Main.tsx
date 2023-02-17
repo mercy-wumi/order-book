@@ -6,7 +6,7 @@ const Main = () => {
     return (
         <>
             <Sidebar />
-            <main className='mt-[63px] ml-[83px] p-2 flex'>
+            <main className='mt-[63px] ml-[83px] p-2 flex min-h-screen'>
                 <Market />
                 <Products />
             </main>

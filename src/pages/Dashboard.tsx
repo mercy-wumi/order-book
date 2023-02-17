@@ -3,7 +3,7 @@ import LiveMarket from '../components/LiveMarket'
 import Main from '../components/Main'
 import Navbar from '../components/Navbar'
 import { BookContext } from '../contexts/BookContext'
-import { BookType, IBooks } from '../@types/book'
+import { BookType } from '../@types/book'
 
 const Dashboard = () => {
     const { orderBook, setOrderBook } = useContext(BookContext) as BookType

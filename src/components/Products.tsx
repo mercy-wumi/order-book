@@ -4,7 +4,7 @@ import TradeLog from "./TradeLog"
 
 const Products = () => {
     return (
-        <div className="px-2 w-full ml-[207px]">
+        <div className="px-2 w-full xxl:ml-[207px]">
             <CategoryHead />
             <ProductTables />
             <TradeLog />

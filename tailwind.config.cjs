@@ -17,6 +17,26 @@ module.exports = {
       searchBg: '#F8FAFB',
       borderSearch: '#D6D6D6',
       buyColor: '#52965E',
+    },
+    screens: {
+
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xxl': '1090px',
+      // => @media (min-width: 1280px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1440px',
+      // => @media (min-width: 1536px) { ... }
     }
   },
   plugins: [],

@@ -50,7 +50,7 @@ const ProductTables = () => {
 
     const style = {
         row: `text-left font-medium cursor-pointer border-b-[1px] border-lightGray`,
-        td: `py-3 px-8 my-1`
+        td: `py-3 px-6 2xl:px-8 my-1`
     }
 
     return (
@@ -68,7 +68,7 @@ const ProductTables = () => {
                         {productTable.map((prod, index) => (
                             <tr key={index} className={`${style.row} hover:bg-lightGray`}>
                                 <td className={style.td}>{prod.prodName}</td>
-                                <td className={`${style.td} text-center`}>{prod.quantity}</td>
+                                <td className={`${style.td} 2xl:text-center`}>{prod.quantity}</td>
                                 <td className={`${style.td} text-buyColor`}>
                                     {prod.bid}
                                     <button className="border-[1px] py-[.5px] px-4 ml-8 font-semibold text-sm">Buy</button>
@@ -91,7 +91,7 @@ const ProductTables = () => {
                         {productTable.map((prod, index) => (
                             <tr key={index} className={`${style.row} hover:bg-lightGray`}>
                                 <td className={style.td}>{prod.prodName}</td>
-                                <td className={`${style.td} text-center`}>{prod.quantity}</td>
+                                <td className={`${style.td} 2xl:text-center`}>{prod.quantity}</td>
                                 <td className={`${style.td} text-activeColor`}>
                                     {prod.bid}
                                     <button className="border-[1px] py-[.5px] px-4 ml-8 font-semibold text-sm">Sell</button>

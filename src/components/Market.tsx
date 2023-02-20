@@ -11,7 +11,7 @@ const Market = () => {
         listMenu: `flex items-center hover:bg-backgroundColor hover:text-activeColor font-semibold text-sm py-4 p-5 cursor-pointer`
     }
     return (
-        <div className='bg-white p-2 w-[207px] h-fit fixed'>
+        <div className='bg-white p-2 w-[207px] h-fit hidden xxl:block fixed' style={{}}>
             <div className='border-[1px] p-1 px-2 flex items-center text-sm bg-searchBg border-borderSearch'>
                 <img src={searchIcon} alt="search icon" />
                 <input type="text" placeholder='Search' className='outline-none bg-inherit ml-1' />
